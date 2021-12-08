@@ -5,9 +5,9 @@ import (
 	"net/http"
 
 	"github.com/acme-corp-tech/brick"
-	"github.com/acme-corp-tech/service-starter-kit/internal/infra/nethttp/ui"
-	"github.com/acme-corp-tech/service-starter-kit/internal/infra/service"
-	"github.com/acme-corp-tech/service-starter-kit/internal/usecase"
+	"github.com/acme-corp-tech/auth/internal/infra/nethttp/ui"
+	"github.com/acme-corp-tech/auth/internal/infra/service"
+	"github.com/acme-corp-tech/auth/internal/usecase"
 	"github.com/swaggest/rest/nethttp"
 )
 

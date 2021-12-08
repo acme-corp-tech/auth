@@ -7,7 +7,7 @@ import (
 )
 
 // Name is the name of this application or service.
-const Name = "service-starter-kit"
+const Name = "auth"
 
 // Config defines application configuration.
 type Config struct {

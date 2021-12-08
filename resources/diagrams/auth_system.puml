@@ -1,0 +1,7 @@
+@startuml "auth_system"
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+!include auth_components.puml
+!include auth_relations.puml
+
+@enduml
