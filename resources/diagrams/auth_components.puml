@@ -1,8 +1,8 @@
 @startuml "auth_components"
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 
-System_Boundary(auth_system, "[[https://github.com/acme-corp-tech/architecture/wiki/auth_system.svg Auth]]") {
-    Container(auth, "Auth", "Go", "Change Me", $sprite="go")
+System_Boundary(auth_system, "[[https://github.com/acme-corp-tech/architecture/wiki/auth_system.svg User authentication]]") {
+    Container(auth_service, "Auth Service", "Go", "Manages user auth tokens", $sprite="go")
     ContainerDb(auth_db, "Auth Database", "MySQL", "", $sprite="mysql")
 }
 

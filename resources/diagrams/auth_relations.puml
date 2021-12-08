@@ -1,6 +1,6 @@
 @startuml "auth_relations"
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 
-Rel(auth, auth_db, "Stores something")
+Rel(auth_service, auth_db, "Stores user auth tokens")
 
 @enduml
