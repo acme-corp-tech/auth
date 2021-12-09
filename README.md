@@ -2,16 +2,6 @@
 
 [![Build Status](https://github.com/acme-corp-tech/auth/workflows/test-unit/badge.svg)](https://github.com/acme-corp-tech/auth/actions?query=branch%3Amaster+workflow%3Atest-unit)
 
-<!--- TODO Update README.md -->
+This service manages customer access tokens.
 
-Project template with GitHub actions for Go.
-
-AUTH
-Auth
-auth
-auth
-
-## Usage
-
-Create a new repository from this template, check out it and run `./run_me.sh` to replace template name with name of
-your repository.
+[![Auth System](https://raw.githubusercontent.com/wiki/acme-corp-tech/architecture/auth_system.svg)](https://github.com/acme-corp-tech/architecture/wiki/Acme-Services#auth-service)
